@@ -1,0 +1,136 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../src/bg-repeat.jpg);
+    background-size: contain;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+main .descricao{
+    width: 300px;
+    color: #FFF;
+}
+
+.descricao h1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.descricao .texto{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formulario{
+    width: 340px;
+    min-height: 360px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 22px;
+    align-items: center;
+}
+
+.formulario .lista .item{
+    margin-bottom: 10px;
+}
+
+.formulario .lista .item
+#number-imputinput::-webkit-outer-spin-button,#number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formulario .lista .item input{
+    transition: 0.3s;
+    width: 298.013px;
+    height: 35.11px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario .lista .item .input:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+.formulario .lista .item .input.vazio{
+    border: 1px solid red;
+}
+
+.formulario .lista .item .input.preenchido{
+    border: 1px solid green;
+}
+
+.formulario .lista .item input::placeholder{
+    color: #868686;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario .lista .item textarea{
+    transition: 0.3s;
+    resize: none;
+    width: 298.013px;
+    height: 100px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario .lista .item textarea::placeholder{
+    color: #868686;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario .aviso-geral{
+    color: #000;
+    align-self: flex-start;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+
+.formulario ul .aviso{
+    display: none;
+    color: #F52E2E;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.formulario .lista .item .aviso.mostrar{
+    display: block;
+}
+
+.formulario #btn-enviar{
+    border-radius: 5px;
+    width: 298.013px;
+    height: 41.129px;
+    background-color: #3CCC87;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario #btn-enviar:hover{
+    background-color: green;
+    color: #e8e8e8;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
